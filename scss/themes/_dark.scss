@@ -1,0 +1,83 @@
+@use "../abstracts/variables" as *;
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-primary: #d5e6d2;
+        --color-secondary: #9fbd9f;
+        --color-dark: #6f9b73;
+        --color-accent: #26382a;
+        --color-background: #18221a;
+        --color-card: rgba(42, 57, 44, 0.90);
+        --color-text: #d2e0d0;
+        --color-white: #ffffff;
+    }
+
+    body {
+        background:
+            linear-gradient(
+                135deg,
+                #18221a,
+                #26382a,
+                #304632,
+                #1c2a1f
+            );
+
+        color: #d2e0d0;
+    }
+
+    .site-header {
+        background:
+            linear-gradient(
+                135deg,
+                #18221a,
+                #26382a
+            );
+
+        box-shadow:
+            0 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .site-nav a {
+        color: #d5e6d2;
+
+        &:hover {
+            color: #9fbd9f;
+        }
+    }
+
+    .info-card {
+        background-color: rgba(53, 72, 56, 0.9);
+    }
+
+    .skill-card {
+        background-color: rgba(42, 57, 44, 0.9);
+    }
+
+    .gallery-item {
+        background-color: rgba(42, 57, 44, 0.9);
+    }
+
+    .gallery-item figcaption {
+        background-color: rgba(42, 57, 44, 0.95);
+        color: #d5e6d2;
+    }
+
+    .contact-section form {
+        background-color: rgba(42, 57, 44, 0.9);
+    }
+
+    .contact-section input,
+    .contact-section textarea {
+        background-color: #26382a;
+        color: #d5e6d2;
+        border-color: #506a54;
+    }
+
+    .site-aside {
+        background-color: #26382a;
+    }
+
+    .site-footer {
+        background-color: #17251a;
+    }
+}

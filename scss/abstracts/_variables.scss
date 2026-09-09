@@ -1,0 +1,31 @@
+$color-primary: #3f5b45;
+$color-secondary: #5f7f63;
+$color-dark: #27482d;
+$color-accent: #e8dfc8;
+$color-background: #dce8d3;
+$color-card: rgba(245, 240, 223, 0.65);
+$color-text: #315744;
+$color-white: #ffffff;
+
+$gradient-background: linear-gradient(
+    135deg,
+    #dce8d3,
+    #b7cdb0,
+    #f5f0df,
+    #e8dfc8
+);
+
+$shadow-small: 0 4px 12px rgba(0, 0, 0, 0.10);
+$shadow-medium: 0 8px 20px rgba(0, 0, 0, 0.12);
+
+$radius-small: 10px;
+$radius-medium: 15px;
+$radius-large: 20px;
+
+$space-xs: 5px;
+$space-sm: 10px;
+$space-md: 20px;
+$space-lg: 30px;
+$space-xl: 40px;
+
+$max-width: 1200px;

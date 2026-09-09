@@ -1,0 +1,33 @@
+@use "../abstracts/variables" as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+
+    font-family: Arial, sans-serif;
+
+    color: $color-primary;
+
+    background: $gradient-background;
+    background-attachment: fixed;
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto auto;
+
+    grid-template-areas:
+        "header"
+        "main"
+        "aside"
+        "footer";
+}
